@@ -1,0 +1,153 @@
+{
+  "artifacts": [
+    "u1000000.tar.xz",
+    "u2000000.tar.xz",
+    "u3000000.tar.xz",
+    "u4000000.tar.xz",
+    "u5000000.tar.xz"
+  ],
+  "command": "main",
+  "experiment": {
+    "base_dir": "C:\\Users\\lcdew\\Desktop\\Onedrive-Folder\\CS - AI\\Seminar Advanced Deep RL\\SEAC",
+    "dependencies": [
+      "ale-py==0.7.4",
+      "lbforaging==1.0.15",
+      "numpy==1.23.5",
+      "robotic-warehouse==0.0.1",
+      "sacred==0.8.4",
+      "torch==2.0.1+cu118"
+    ],
+    "mainfile": "train.py",
+    "name": "train",
+    "repositories": [
+      {
+        "commit": "6f3c8d96b5177efde13952eb041fa040d5ffa653",
+        "dirty": true,
+        "url": "https://github.com/boomerr1/SADRL.git"
+      },
+      {
+        "commit": "6f3c8d96b5177efde13952eb041fa040d5ffa653",
+        "dirty": true,
+        "url": "https://github.com/boomerr1/SADRL.git"
+      },
+      {
+        "commit": "6f3c8d96b5177efde13952eb041fa040d5ffa653",
+        "dirty": true,
+        "url": "https://github.com/boomerr1/SADRL.git"
+      },
+      {
+        "commit": "6f3c8d96b5177efde13952eb041fa040d5ffa653",
+        "dirty": true,
+        "url": "https://github.com/boomerr1/SADRL.git"
+      },
+      {
+        "commit": "6f3c8d96b5177efde13952eb041fa040d5ffa653",
+        "dirty": true,
+        "url": "https://github.com/boomerr1/SADRL.git"
+      },
+      {
+        "commit": "6f3c8d96b5177efde13952eb041fa040d5ffa653",
+        "dirty": true,
+        "url": "https://github.com/boomerr1/SADRL.git"
+      },
+      {
+        "commit": "6f3c8d96b5177efde13952eb041fa040d5ffa653",
+        "dirty": true,
+        "url": "https://github.com/boomerr1/SADRL.git"
+      }
+    ],
+    "sources": [
+      [
+        "a2c.py",
+        "_sources\\a2c_1c6a6667e4e55606516fd9b9a19e9d6a.py"
+      ],
+      [
+        "envs.py",
+        "_sources\\envs_e52357f60bf8dc68d28677f3ec3bbf6f.py"
+      ],
+      [
+        "model.py",
+        "_sources\\model_54459f53f9affec0ff8e5ef34594b9a1.py"
+      ],
+      [
+        "storage.py",
+        "_sources\\storage_45b28a2edd046ff4940eb8dc520ed314.py"
+      ],
+      [
+        "train.py",
+        "_sources\\train_e4dacbaf178f8c66fb87528628731f73.py"
+      ],
+      [
+        "utils.py",
+        "_sources\\utils_ef17b6748352c6841b65fae9ee20ede1.py"
+      ],
+      [
+        "wrappers.py",
+        "_sources\\wrappers_ed5f95792e845345776f28cc9f50cf06.py"
+      ]
+    ]
+  },
+  "heartbeat": "2023-09-23T09:38:58.211827",
+  "host": {
+    "ENV": {},
+    "cpu": "AMD Ryzen 5 3600 6-Core Processor",
+    "gpus": {
+      "driver_version": "535.98",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 2060",
+          "persistence_mode": false,
+          "total_memory": 6144
+        }
+      ]
+    },
+    "hostname": "DESKTOP-0RT54VK",
+    "os": [
+      "Windows",
+      "Windows-10-10.0.22621-SP0"
+    ],
+    "python_version": "3.8.5"
+  },
+  "meta": {
+    "command": "main",
+    "config_updates": {
+      "env_name": "Foraging-8x8-2p-2f-coop-v1",
+      "time_limit": 25
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_name=Foraging-8x8-2p-2f-coop-v1",
+        "time_limit=25"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2023-09-22T14:11:49.432452",
+  "status": "COMPLETED",
+  "stop_time": "2023-09-23T09:38:58.210828"
+}

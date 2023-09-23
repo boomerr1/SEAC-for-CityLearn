@@ -6,9 +6,9 @@ import gym
 from a2c import A2C
 from wrappers import RecordEpisodeStatistics, TimeLimit
 
-path = "pretrained/rware-small-4ag"
+path = "results/trained_models"
 env_name = "rware-small-4ag-v1"
-time_limit = 500 # 25 for LBF
+time_limit = 25 # 25 for LBF
 
 RUN_STEPS = 1500
 
