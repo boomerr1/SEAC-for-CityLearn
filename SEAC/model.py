@@ -56,6 +56,7 @@ class Policy(nn.Module):
 
         self.base = MLPBase(obs_shape[0], **base_kwargs)
 
+        # num_outputs = action_space.shape[0]
         num_outputs = action_space.n
         self.dist = Categorical(self.base.output_size, num_outputs)
 
